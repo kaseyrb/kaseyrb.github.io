@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+  background-color: pink;
+  font-family: 'Merriweather', 'Courier New', monospace;
+}
+.flow h2{
+  font-family: 'Merriweather', 'Courier New', monospace;
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+}
+h3 { 
+  font-family: 'Merriweather', monospace;
+  background-color: lightpink;
+}
+.tablehead {
+  font-family: 'Merriweather', monospace;
+  font-weight: bold;
+  background-color: hotpink;
+}
+table {
+  background-color: pink;
+}
+td {
+  font-family: 'Raleway', 'Courier New', monospace;
+}
+th {
+  background-color: palevioletred;
+}
+ul {
+  font-family: 'Courier New', monospace;
+}
+footer {
+  font-family: 'Raleway', 'Courier New', monospace;
+  text-align: center;
+  font-size: 300;
+  font-weight: bold;
+}
