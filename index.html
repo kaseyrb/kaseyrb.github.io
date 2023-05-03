@@ -1,9 +1,125 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>Kasey</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
-</html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
+
+    </head>
+    <body>
+      <header>
+      <h1>CSS Display & Positioning</h1>
+      </header>
+      <article class="flow">
+        <h2>The Flow of HTML</h2>
+        <p>The flow of HTML is defaulted as left to right and top to bottom. This is how it exists in the document and that would be considered the "flow" of elements in HTML.
+          <br>
+          <br>
+          In addition to the properties that it provides to style HTML elements, CSS includes properties that can change how a browser positions elements too. There properties specify where an element is located on the page, if the element shares lines with other elements, and other related attributes.
+        </p>
+        </article>
+        <div class="table1">
+          <h2 class="tablehead">Positioning Values</h2>
+          <table border="1">
+            <tr>
+              <th scope="col">Value</th>
+              <th scope="col">Definition</th>
+              </tr>
+              <tr>
+                <td>Static</td>
+                <td>This is the default value of an element and doesn't need to be specified.</td>
+                </tr>
+              <tr>
+              <td>Relative</td>
+              <td>This value allows you to position an element relative to its default static position on the webpage.</td>
+              </tr>
+              <tr>
+                <td>Absolute</td>
+                <td>When an element's position is set to this, all other elements on the page will ignore the element and act like it's not on the page.</td>
+                </tr>
+                <tr>
+                  <td>Fixed</td>
+                  <td>This "fixes" an element to a specific position on the page regardless of scrolling.</td>
+                  </tr>
+                  <tr>
+                    <td>Sticky</td>
+                    <td>This position value keeps an element in the document flow as the user scrolls but "sticks" to a specified position as the page is scrolled further.</td>
+                    </tr>
+                    <tr>
+                      <td>Z-Index</td>
+                      <td>The Z-Index is its own property that accepts integer values that control how far forward or how far back an element should appear on the webpage when elements overlap.</td>
+                      </tr>
+            </table>
+          </div>
+          <div class="examples1">
+            <h3>How to Write Position Values</h3>
+            <ul>
+              <li>position: relative;</li>
+              <li>position: absolute;</li>
+              <li>position: fixed;</li>
+              <li>position: sticky;</li>
+              <li>z-index: 1;</li>
+              </ul>
+            </div>
+            <br>
+            <div class="table2">
+          <h2 class="tablehead">Display Values</h2>
+          <table border="1">
+            <th scope="col">Value</th>
+            <th scope="col">Definition</th>
+            <tr>
+              <td>Inline</td>
+              <td>Inline elements have a box that wraps tightly around their content, only taking up the amount of space nessecary to display their content and not requiring a new line after each element. The height and width of these elements cannot be specified in the CSS document.</td>
+              </tr>
+              <tr>
+                <td>Block</td>
+                <td>These elements fill the entire width of the page by default, but their width property can also be set. These elements are not displayed in the same level as the content around them. Unless specified otherwise, they are the height necessary to accomodate their content.</td>
+                </tr>
+                <tr>
+                  <td>Inline-Block</td>
+                  <td>This value combines features of both inline and block elements. Inline-block elements can appear next to eachother adn we can specify their dimensions using the width and height properties.</td>
+                  </tr>
+            </table>
+            </div>
+            <div class="examples2">
+              <h3>How to Write Display Values</h3>
+              <ul>
+                <li>display: inline;</li>
+                <li>display: block;</li>
+                <li>display: inline-block;</li>
+                </ul>
+              </div>
+              <br>
+              <div class="table3">
+                <h2 class="tablehead">Other Layout Properties</h2>
+                <table border="1">
+                  <th scope="col">Property</th>
+                  <th scope="col">Definition</th>
+                  <tr>
+                    <td>Float</td>
+                    <td>This simply moves an element as far left or as far left as possible in the container. This is commonly used for wrapping text around an image. (Note: moving elements left or right for layout purposes is better suited for tools like CSS grid and flexbox)</td>
+                    </tr>
+                    <tr>
+                      <td>Clear</td>
+                      <td>When multiple floated elements have different heights, it can affect their layout on the page. The Clear property specifies how elements should behave when they bump into eachother on the page. Clear can take on one of the following values: left, right, both, or none.</td>
+                      </tr>
+                  </table>
+                  </div>
+                  <div class="examples3">
+                    <h3>How to Write These Properties</h3>
+                    <ul>
+                      <li>float: right;</li>
+                      <li>clear: left;</li>
+                    </ul>
+                    </div>
+                    <br>
+                    <br>
+                    <footer class="ending">
+                      <p>When combined with an understanding of the box model, positioning can create visually appearing web pages.</p>
+                      </footer>
+      </body>
+  </html>
